@@ -1,0 +1,59 @@
+input[type=search].searchbar{
+	height: 45px;
+	width: auto;
+}
+
+a{
+	color: black;
+}
+
+img, embed, video, object{
+	max-width: 100%;
+}
+
+.sectionCss{
+	max-width: 100%;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.headingText{
+	text-align: center;
+	padding-top: 2.5%;
+	font-size: 2em;
+}
+
+a.navPanelToggle{
+	width: 10%;
+	float: left;
+	height: 10%;
+}
+
+.footerDesign{
+	background-color: purple;
+	width: 100%;
+}
+.containerSocial{
+	width: 100%;
+	background-color: lightgrey;
+	display: flex;
+	flex-wrap: wrap;
+	color: black;
+	padding: 0.5em;
+
+}
+.LinkedIn, .Github, .Twitter, .Overig{
+	width: 25%;
+	text-align: center;
+	background-color: whitesmoke;
+}
+
+
+@media screen and (max-width: 500px) {
+	.LinkedIn, .Github, .Twitter,.Overig{
+		width: 100%;
+	}
+
+}
+

@@ -1,0 +1,103 @@
+<!-- contact-->
+<!DOCTYPE html>
+<html lang = "eng">
+	<head>
+		<meta charset="UTF-8">
+		<meta name = "robots" content = "all">
+		<meta name = "language" content = "English">
+		<meta name = "author" content = "Xandra Mentink">
+		<meta name = "description" content = "">
+		<meta name = "keywords" content = "">
+		<meta name = "copyright" content = "copyright">
+		<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="icon" sizes="16x16" href="favicon.ico" type="Images/ico">
+		<link rel="icon" sizes="16x16" href="favicon-16x16.png" type="Images/ico">
+		<title>Contact</title>
+	</head>	
+	<body>
+		<header id="header">
+			<img class="image rounded" src="Images/Logo Social.png" width="50" height="50" alt="logo Social">
+			<h1><a href="#">Xandra Mentink</a></h1>
+			<nav id="nav">		   
+				<ul>
+					<li><a class="" href="index.html" >Home</a></li>
+					<li><a class="" href="about.html">About</a></li>
+					<li><a class="" href="skills.html">Skills</a></li>
+					<li><a class="" href="contact.html">Contact</a></li>
+					<li>
+						<form>
+							<input class="searchbar" type="search" placeholder="Search" aria-label="Search">
+							<button class="button small" type="submit">Search</button>
+						</form>
+					</li>
+				</ul>					
+		   </nav>
+		</header>		
+		<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+		<h3 class="headingText">Contact</h3>
+			<section class="sectionCss">
+				<h4>Form</h4>
+				<form method="post" action="#">
+					<div class="row uniform 50%">
+						<div class="6u 12u$(xsmall)">
+							<input type="text" name="name" id="name" value="" placeholder="Name" />
+						</div>
+						<div class="6u$ 12u$(xsmall)">
+							<input type="email" name="email" id="email" value="" placeholder="Email" />
+						</div>
+						<div class="12u$">
+							<div class="select-wrapper">
+								<select name="category" id="category">
+									<option value="">- Category -</option>
+									<option value="1">Manufacturing</option>
+								</select>
+							</div>
+						</div>
+						<div class="4u 12u$(xsmall)">
+							<input type="radio" id="priority-low" name="priority" checked>
+							<label for="priority-low">Low Priority</label>
+						</div>
+						<div class="4u 12u$(xsmall)">
+							<input type="radio" id="priority-normal" name="priority">
+							<label for="priority-normal">Normal Priority</label>
+						</div>
+						<div class="4u$ 12u$(xsmall)">
+							<input type="radio" id="priority-high" name="priority">
+							<label for="priority-high">High Priority</label>
+						</div>
+						<div class="6u 12u$(small)">
+							<input type="checkbox" id="copy" name="copy">
+							<label for="copy">Email me a copy of this message</label>
+						</div>
+						<div class="12u$">
+							<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+						</div>
+						<div class="12u$">
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="reset" value="Reset" class="special" /></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</section>
+
+\		<footer class="footerDesign">
+			<div class="containerSocial"> 
+				<div class="LinkedIn"><a href="" class="icon fa-linkedin"></a></div>
+				<div class="Github"><a href="" class="icon fa-github"></a></div>
+				<div class="Twitter"><a href="" class="icon fa-twitter"></a></div>
+				<div class="Overig">test<a href=""></a></div>				
+			</div>
+		</footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/util.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
